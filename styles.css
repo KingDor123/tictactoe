@@ -1,0 +1,86 @@
+
+body{
+    margin-top: 150px;
+    display: inline;
+    background-color: darkslategray;
+}
+.conteiner{
+    font-family: 'Permanent Marker', cursive;
+    margin-top: 150px;
+    padding: 70px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#gameboard{
+    
+    display: flex;
+    
+}
+.reset{
+    padding: 10px 10px;
+    font-style:italic;
+    font-family: 'Permanent Marker', cursive;
+    font-size:larger ;
+    background-color: darkslategray;
+    border-radius: 5px;
+}
+.num{
+    font-size: 130px;
+    display: flex;
+    height: 150px;
+    width: 150px;
+    color: rgb(255, 255, 254);
+    border-bottom: 5px solid;
+    border-right: 5px solid;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.sector{
+    display: inline-block;
+    
+}
+.num:hover{
+    opacity: 10%;
+    background-color: aquamarine;
+}
+#six{
+    border-right: none;
+}
+#seven{
+    border-right: none;
+}
+#eight{
+    border-right: none;
+    border-bottom: none;
+}
+#five{
+    border-bottom: none;
+}
+#two{
+    border-bottom: none;
+}
+.names{
+    margin: 10px;
+    margin-bottom: 10px;
+   
+}
+.name1{
+    margin-bottom: 10px;
+}
+#name1{
+   background-color:  rgb(67, 104, 104);
+}
+#name2{
+    background-color:   rgb(67, 104, 104);
+}
+.wintext{
+    padding: 50px;
+    font-style: italic;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 80px;
+}
