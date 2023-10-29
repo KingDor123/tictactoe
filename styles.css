@@ -44,10 +44,7 @@ body{
     display: inline-block;
     
 }
-.num:hover{
-    opacity: 10%;
-    background-color: aquamarine;
-}
+
 #six{
     border-right: none;
 }
